@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(159, 199, 194);
+}
+
+#title
+{
+    text-align: center;
+}
+
+#description
+{
+    text-align: center;
+}
+
+.survey-content
+{
+    margin: auto;
+    width: 50%;    
+    display: block;
+    block-size: auto;
+    border: 3px solid black;
+    background-image: linear-gradient(45deg, rgb(243, 70, 70),rgb(97, 97, 243));      
+}
+
+input[type=number] 
+{
+    width: 99%;    
+    height: 2.5rem;
+    border-radius: 8px;
+    font-size: 1rem;       
+}
+input[type=text] 
+{
+    width: 99%;    
+    height: 2.5rem;
+    border-radius: 8px;
+    font-size: 1rem;     
+}
+input[type=email]
+{
+    width: 99%;    
+    height: 2.5rem; 
+    border-radius: 8px;
+    font-size: 1rem;   
+}
+.name
+{
+    text-align: left;
+    margin: 1.5rem;
+      
+}
+.gender
+{
+    text-align: left;
+    margin: 1.5rem;  
+}
+.age
+{
+    text-align: left;
+    margin: 1.5rem;   
+}
+.email
+{
+    text-align: left;
+    margin: 1.5rem;
+       
+}
+#dropdown
+{
+    width: 99%;
+    
+    text-align: left;
+    margin: 1.5rem;          
+}
+
+.list
+{
+    width: 99%;
+    display: block;
+    text-align: left;
+    height: 2.5rem;
+    border-radius: 8px;
+    border: 2px;
+    font-size: 1rem;
+}
+.color-label
+{      
+    display: block;
+    text-align: left;
+    margin: 1.5rem;
+    border: 2px;
+}
+.recommend
+{
+    display: block;
+    text-align: left;
+    margin: 1.5rem;
+}
+.radio-btn
+{
+    display: block;
+    text-align: left;
+    margin-left: 1.5rem;       
+}
+.transportation
+{
+    display: block;
+    text-align: left;
+    margin-left: 1.5rem;   
+}
+.tick-box
+{
+    display: block;
+    text-align: left;
+    margin-left: 1.5rem;   
+}
+.suggestion
+{
+    display: block;
+    text-align: left;
+    margin-left: 1.5rem;   
+}
+.text-box
+{
+    width: 94%;    
+    height: 8.5rem;
+    border-radius: 8px;
+    font-size: 1.5rem; 
+}
+
+
+
+.submit-btn
+{
+    color: black;
+    background-color: lightgreen;
+    border: 1.5px solid black;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 8px;
+    margin: 1.5rem;
+}
+
+.submit-btn:hover
+{
+    color: black;
+    background-color:greenyellow;
+    cursor: pointer;
+    border: 1.5px solid black;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 8px;
+    margin: 1.5rem;
+}

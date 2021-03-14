@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Survey Form </title>
+        <meta name="description" content="Survey Form">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+</html>
+
+<body>       
+    <h1 id="title">This is my survey form<!--placeholder--></h>
+        <p id="description" > Thank you for filling out this form</p>
+    <div class="survey-content">
+        <form id="survey-form">
+            <div class="name">
+                <label id="name-label" for="name">Name</label>
+                <br>
+                <input type="text" id="name" required="required" placeholder="Enter your name">
+            </div>
+            <div class="gender"> 
+                <label for="gender">Gender</label>
+                <br>
+                <input type="text" id="gender" placeholder="Enter your gender">
+            </div>
+            <div class="age">
+                <label for="number" id="number-label">Age</label>
+                <br>
+                <input type="number" id="number" placeholder="Enter your age" min="1" max="110">
+            </div>
+            <div class="email">
+                <label for="email" id="email-label">E-mail</label>
+                <br>
+                <input type="email" id="email" name="email" required="required" placeholder="Enter your e-mail">
+            </div>
+            
+            <div class="color-label">
+                <label for="datalist">What is your favorite color</label>
+                <br>                
+                <input list="dropdown" class="list" placeholder="Enter your favorite color">
+                <datalist id="dropdown">
+                    <option value="Red">
+                    <option value="Yellow">
+                    <option value="Green">
+                    <option value="Blue">
+                    <option value="Orange">
+                    <option value="Purple">
+                </datalist>
+            </div>
+            <h3 class="recommend">Would you recommend this site to your friends?</h3> 
+            <div class="radio-btn">                                              
+                <input type="radio" id="definitely" name="group" value="definitely">
+                <label for="definitely">Definitely</label>
+                <br>
+                <input type="radio" id="maybe" name="group" value="maybe">
+                <label for="maybe">Maybe</label>
+                <br>
+                <input type="radio" id="no" name="group" value="no">
+                <label for="no">No</label>
+            </div>
+            <h3 class="transportation">What method of transportation do you use?</h3>
+            <div class="tick-box">
+                <input type="checkbox" id="transport1" name="transport1" value="Bike">
+                <label for="transport1">Bike</label>
+                <br>
+                <input type="checkbox" id="transport2" name="transport1" value="Car">
+                <label for="transport2">Car</label>
+                <br>
+                <input type="checkbox" id="transport3" name="transport1" value="Train">
+                <label for="transport3">Train</label>
+                <br>
+                <input type="checkbox" id="transport4" name="transport1" value="Bus">
+                <label for="transport4">Bus</label>
+            </div>
+            <h3 class="suggestion">Do you have any comments or suggestions?</h3>
+            <div>
+                <textarea class="text-box">
+                    
+                </textarea>
+
+               
+            </div>
+            
+                <input type="submit" class="submit-btn" id="submit">
+            
+    </div>        
+        </form>            
+                    
+     
+
+</body>
